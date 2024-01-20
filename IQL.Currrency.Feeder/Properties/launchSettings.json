@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "IQL.Currrency.Feeder": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7285",
+      "environmentVariables": {
+       // "BVG_Connection_PostGreSQL": "Server=iql-geospatial-13.postgres.database.azure.com;Database=iql_geospatial;Port=5432;User Id=iqladmin;Password=Password123;"
+        "BVG_Connection_PostGreSQL": "Server=iql-experimentation.postgres.database.azure.com;Database=iql_bvg;Port=5432;User Id=iqladmin;Password=Password123;"
+      }
+    }
+  }
+}
